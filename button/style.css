@@ -1,0 +1,54 @@
+.basic_btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.basic_btn:hover {
+  background-color: #0056b3;
+}
+
+.outline_btn {
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.outline_btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.rounded_btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.rounded_btn:hover {
+  background-color: #0056b3;
+}
+
+.gradiant_btn {
+  background: linear-gradient(45deg, #007bff, #00e7c1);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.gradiant_btn:hover {
+  background: linear-gradient(45deg, #0056b3, #00afa0);
+}
